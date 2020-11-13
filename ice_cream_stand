@@ -15,6 +15,7 @@ my_restaurant = Restaurant('deleon', 'mexiasian')
 class IceCreamStand(Restaurant):
     """describes the flavors of ice-cream."""
     def __init__(self, name, type, flavors):
+    """initialize flavors."""
         super().__init__(name, type)
         self.flavors = flavors
 
