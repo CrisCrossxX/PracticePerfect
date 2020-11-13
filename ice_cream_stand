@@ -20,7 +20,7 @@ class IceCreamStand(Restaurant):
 
     def describe_flavor(self):
         print(f"{self.name} is now serving {self.type}!")
-        print(f"today's selection includes, {self.flavors.title()}.")
+        print(f"today's selection includes: {self.flavors.title()}.")
 
 my_flavors = IceCreamStand('deleon', 'ice cream',
                            '[vanilla, dark-chocolate, cookie-dough]'
